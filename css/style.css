@@ -1,0 +1,148 @@
+/* ALL COMMON CSS START  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+     font-family: "Poppins", sans-serif;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+    
+}
+
+/* ALL COMMON CSS END  */
+
+/* HEADER PART START  */
+
+.navbar {
+    background: #F9F9FC;
+}
+
+.nav-link{
+    color: #000000;
+}
+
+.nav-link a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #5E3BEE;
+}
+
+.hirebtn a {
+    background: #5E3BEE;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.hirebtn a:hover {
+    background: #fff;
+    color: #5E3BEE;
+    border: 1px solid #5E3BEE;
+}
+
+/* HEADER PART END  */
+
+
+/* BANNER PART START  */
+#banner {
+    background: #F9F9FC;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+
+.bannercontent {
+    padding-top: 120px;
+}
+
+.bannercontent h6 {
+    font-size: 16px;
+    color: #5E3BEE;
+    font-weight: 500;
+}
+
+.bannercontent p {
+    font-size: 60px;
+    color: #333;
+    font-weight: 700;
+    line-height: 78px;
+    padding-right: 15px;
+    margin: 32px 0;
+}
+
+.bannercontent a {
+    background: #5E3BEE;
+    color: #fff;
+    padding: 25px 40px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.4s ease;
+    margin-right: 15px;
+    margin-bottom:140px  ;
+}
+
+.bannercontent a:hover {
+    background: transparent;
+    color: #5E3BEE;
+}
+.bannercontent i {
+    margin-right: 10px;
+}
+
+/* BANNER PART END  */
+
+/* COUNTER PART START  */
+#counter {
+    background: #ffffff;
+    padding: 85px 0;
+}
+.counterItem {
+    text-align: center;
+    padding: 5px 80px;
+}
+    
+.counterItem h3{
+    font-size: 48px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.counterItem p{
+    font-size: 16px;
+    color: #000000;
+    opacity: 0.7;
+    font-weight: 500;
+    padding-top: 30px;
+}
+/* COUNTER PART END  */
