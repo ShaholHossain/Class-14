@@ -41,9 +41,10 @@ p {
 
 .nav-link{
     color: #000000;
+    margin-right:40px;
 }
 
-.nav-link a {
+.nav-link a{
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 500;
@@ -146,3 +147,138 @@ p {
     padding-top: 30px;
 }
 /* COUNTER PART END  */
+
+/* SERVICE PART START  */
+
+#services{
+    padding: 100px 0;
+    
+}
+
+.servicesText{
+    text-align: center;
+
+}
+
+.servicesText h6{
+    color: #5E3BEE;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px; 
+}
+
+.servicesText h3{
+    color: #000000;
+    font-size: 44px;
+    font-weight: 600;
+    letter-spacing: 0.5%;
+    padding: 30px 0;
+}
+
+.servicesText p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 32px;
+    padding: 0 60px;
+}
+
+.serviceItem{
+    padding: 50px;
+    border-radius: 24px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 37px 37px 80px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+.serviceItem h5{
+    padding-top: 45px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.serviceItem p{
+color: #121212;
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.5px;
+}
+
+
+/* SERVICE PART END  */
+
+/* DESIGNER PART START  */
+#designer{
+    background: url(../images/banner.png);
+    padding: 150px 0;
+    width: 100;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.designerText h5{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #5E3BEE;
+}
+
+.designerText h3{
+    font-size: 60px;
+    font-weight: 700;
+    line-height:  78px;
+    color: #333;
+    padding: 40px 0;
+}
+
+.designerText p{
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.5;
+    padding-bottom: 40px;
+    padding-right: 50px;
+}
+
+.designerText a{
+    padding: 25px 40px;
+    border-radius: 50px;
+    background: #5E3BEE;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5;
+    transition: 0.4s ease-out;
+}
+
+.designerText a:hover{
+    background: transparent;
+    color: #5E3BEE;
+
+}
+.designerText i{
+    margin-right: 10px;
+}
+/* DESIGNER PART END  */
+
+/* LOGOIPSUM PART START  */
+#logoipsum{
+    padding: 115px 50px;
+}
+/* LOGOIPSUM PART END  */
+
+/* SERVICE PART START  */
+/* SERVICE PART END  */
+
+/* SERVICE PART START  */
+/* SERVICE PART END  */
+
+/* SERVICE PART START  */
+/* SERVICE PART END  */
+
+
